@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/style.css" rel="stylesheet">
+    <title>Gestor Financeiro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="flex justify-center py-20">
+    <button class="w-100 h-50 border-4 border-slate-800 rounded-full text-neutral-200 bg-neutral-700 font-[Special_Gothic_Expanded_One] text-2xl hover:bg-neutral-400" id="button-start">Aperte Aqui!</button>
+    <h1 class="text-gray-800 text-4xl" id="h1-title" ></h1>
+  </div>
+  <div id="div-planilha" class="flex flex-col justify-self-center justify-center py-10 border-3 border-slate-800 w-[70%] rounded-xl hidden">
+    <h2 class="text-3xl text-center font-[Quicksand] pb-5">Planilha de Money</h2>
+    <p id="planilha-saldo" class="text-center text-xl"></p>
+    <div class="flex flex-col gap-3 pt-5 items-center">
+      <button class="button-saldo border-2 h-10 w-[70%] bg-neutral-700 text-neutral-200 font-[Special_Gothic_Expanded_One] hover:bg-neutral-400">Adicionar Saldo</button>
+      <button class="button-saldo border-2 h-10 w-[70%] bg-neutral-700 text-neutral-200 font-[Special_Gothic_Expanded_One] hover:bg-neutral-400">Remover Saldo</button>
+      <button class="button-saldo border-2 h-10 w-[70%] bg-neutral-700 text-neutral-200 font-[Special_Gothic_Expanded_One] hover:bg-neutral-400">Dividir Saldo</button>
+      <button class="button-saldo border-2 h-10 w-[70%] bg-neutral-700 text-neutral-200 font-[Special_Gothic_Expanded_One] hover:bg-neutral-400">Zerar Tudo</button>
+    </div>
+  </div>
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
